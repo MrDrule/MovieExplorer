@@ -1,0 +1,22 @@
+{
+  "name": "movieexplorer",
+  "version": "1.0.0",
+  "description": "Movie Explorer using themoviedb.org API",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/MrDrule/MovieExplorer"
+  },
+  "author": "Pantazis Didos",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
